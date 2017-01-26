@@ -7,6 +7,8 @@ namespace Book_Store
 //    ASP.NET C#.ccp build 03/07/2002
 //
 //-------------------------------
+// ------------------ new comment----
+// -------------------another comment
 //
 
     using System;
