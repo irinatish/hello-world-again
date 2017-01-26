@@ -177,7 +177,7 @@ void Detail_Show() {
 	
 	bool ActionInsert=true;
 	
-	if (p_Detail_item_id.Value.Length > 1 ) {
+	if (p_Detail_item_id.Value.Length > 0 ) {
 		string sWhere = "";
 		
 		sWhere += "item_id=" + CCUtility.ToSQL(p_Detail_item_id.Value, FieldTypes.Number);
